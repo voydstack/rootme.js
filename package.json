@@ -1,0 +1,27 @@
+{
+  "name": "rootme.js",
+  "version": "0.1.0",
+  "description": "Simple Root-Me API Client written in NodeJS",
+  "main": "rootme.js",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voydstack/rootme.js.git"
+  },
+  "keywords": [
+    "rootme",
+    "api"
+  ],
+  "author": "voydstack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/voydstack/rootme.js/issues"
+  },
+  "homepage": "https://github.com/voydstack/rootme.js#readme"
+}
