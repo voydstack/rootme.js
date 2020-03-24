@@ -1,7 +1,7 @@
 {
   "name": "rootme.js",
   "version": "0.1.0",
-  "description": "Simple Root-Me API Client written in NodeJS",
+  "description": "Simple Root-Me API Client written in JavaScript",
   "main": "rootme.js",
   "dependencies": {
     "axios": "^0.19.2"

@@ -1,2 +1,2 @@
 # rootme.js
-A simple Root Me API Client written in NodeJS
+A simple Root Me API Client written in JavaScript
