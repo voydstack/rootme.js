@@ -64,6 +64,23 @@ class RootMe {
         return await this.getUserById(await this.getUserId(username, offset))
     }
 
+    async searchUser(username, offset) {
+        try {
+            let users = await this.getUsers(username)
+            
+            let foundUsers = []
+            for(let user of users) {
+                if(user.nom === username) {
+                    foundUsers.push(await this.getUserById(user.id_auteur))
+                }
+            }
+            if(offset) return foundUsers[offset]
+            else return foundUsers.length === 1 ? foundUsers[0] : foundUsers
+        } catch {
+            return undefined
+        }
+    }
+
     async getCurrentUser() {
         return await this.getUserById(this.session.split('_')[0])
     }
